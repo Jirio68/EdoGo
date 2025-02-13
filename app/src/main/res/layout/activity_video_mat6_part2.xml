@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/VideoMat6_part2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ThemeSelect_1part"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/text_elements2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Fraction_Simplification"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video1"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo1"/>
+
+        <Button
+            android:id="@+id/button_video2"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo2"/>
+
+        <TextView
+            android:id="@+id/text_same_elements_names2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Fraction_Operations"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video3"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo3"/>
+
+        <Button
+            android:id="@+id/button_video4"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo4"/>
+
+        <TextView
+            android:id="@+id/text_polygons_on_grid2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Mixed_Number_Addition"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video5"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo5"/>
+
+        <Button
+            android:id="@+id/button_video6"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo6"/>
+
+        <TextView
+            android:id="@+id/text_set2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Mixed_Number_Multiplication"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video7"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo7"/>
+
+        <Button
+            android:id="@+id/button_video8"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo8"/>
+
+        <TextView
+            android:id="@+id/text_same_sets_subset2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Fraction_of_Number"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video9"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo9"/>
+
+        <Button
+            android:id="@+id/button_video10"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo10"/>
+
+        <TextView
+            android:id="@+id/text_sequence2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Distributive_Property"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video11"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo11"/>
+
+        <Button
+            android:id="@+id/button_video12"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo12"/>
+
+        <TextView
+            android:id="@+id/lol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Mixed_Number_Division"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video13"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo13"/>
+
+        <Button
+            android:id="@+id/button_video14"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo14"/>
+
+        <TextView
+            android:id="@+id/kek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Find_Number_From_Fraction"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video15"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo15"/>
+
+        <Button
+            android:id="@+id/button_video16"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo16"/>
+
+        <Button
+            android:id="@+id/button_example"
+            style="@style/Base.Theme.EdoGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/see_more"
+            android:textColor="@color/text"
+            android:textSize="15sp"
+            android:onClick="See_more5_part3"
+            android:layout_marginEnd="-85dp"
+            />
+
+        <Button
+            android:id="@+id/SelectSubjects"
+            style="@style/Base.Theme.EdoGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="-48dp"
+            android:text="@string/Back"
+            android:textColor="@color/text"
+            android:textSize="15sp"
+            android:onClick="Select_Subjest"
+            android:layout_marginStart="50dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

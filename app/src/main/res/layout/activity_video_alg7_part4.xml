@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/VideoAlg7_part4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ThemeSelect"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/text_polynomials2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Polynomials2"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video1"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo1"/>
+
+        <Button
+            android:id="@+id/button_video2"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo2"/>
+
+        <TextView
+            android:id="@+id/text_adding_and_subtracting_polynomials2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Adding_And_Subtracting_Polynomials2"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video3"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo3"/>
+
+        <Button
+            android:id="@+id/button_video4"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo4"/>
+
+        <TextView
+            android:id="@+id/text_multiplying_monomial_by_polynomial2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Multiplying_Monomial_By_Polynomial2"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video5"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo5"/>
+
+        <Button
+            android:id="@+id/button_video6"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo6"/>
+
+        <TextView
+            android:id="@+id/text_common_factor2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Common_Factor2"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video7"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo7"/>
+
+        <Button
+            android:id="@+id/button_video8"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo8"/>
+
+        <TextView
+            android:id="@+id/text_multiplying_polynomials2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Multiplying_Polynomials2"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video9"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo9"/>
+
+        <Button
+            android:id="@+id/button_video10"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo10"/>
+
+        <TextView
+            android:id="@+id/text_factoring_by_grouping2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Factoring_By_Grouping2"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video11"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo11"/>
+
+        <Button
+            android:id="@+id/button_video12"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo12"/>
+
+        <TextView
+            android:id="@+id/text_division_with_remainder2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Division_With_Remainder2"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video13"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo13"/>
+
+        <Button
+            android:id="@+id/button_video14"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo14"/>
+
+        <TextView
+            android:id="@+id/text_squaring_and_cubing_sums2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Squaring_And_Cubing_Sums2"
+            android:textSize="17sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_video15"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video1"
+            android:layout_gravity="start"
+            android:layout_marginStart="50dp"
+            android:onClick="playVideo15"/>
+
+        <Button
+            android:id="@+id/button_video16"
+            android:layout_width="120dp"
+            android:layout_height="48dp"
+            android:text="@string/Video2"
+            android:layout_gravity="end"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="-48dp"
+            android:onClick="playVideo16"/>
+
+        <Button
+            android:id="@+id/button_example"
+            style="@style/Base.Theme.EdoGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/see_more"
+            android:textColor="@color/text"
+            android:textSize="15sp"
+            android:onClick="See_more5_part3"
+            android:layout_marginEnd="-85dp"
+            />
+
+        <Button
+            android:id="@+id/SelectSubjects"
+            style="@style/Base.Theme.EdoGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="-48dp"
+            android:text="@string/Back"
+            android:textColor="@color/text"
+            android:textSize="15sp"
+            android:onClick="Select_Subjest"
+            android:layout_marginStart="50dp"/>
+    </LinearLayout>
+
+</ScrollView>

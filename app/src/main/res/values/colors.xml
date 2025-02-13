@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="back">#F0F8FF</color>
+    <color name="text">#333333</color>
+    <color name="hat">#4A90E2</color>
+    <color name="part">#4B8BCB</color>
+    <color name="them">#7fff00</color>
+</resources>

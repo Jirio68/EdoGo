@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="EdoGo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EdoGo"
+        tools:targetApi="31">
+        <activity
+            android:name="VideoAlg7Class.VideoAlg7_part1"
+            android:exported="false" />
+        <activity
+            android:name="VideoHisRus7Class.Video2HisRus7_part3"
+            android:exported="false" />
+        <activity
+            android:name="VideoHisRus7Class.Video2HisRus7_part2"
+            android:exported="false" />
+        <activity
+            android:name="VideoHisRus7Class.Video2HisRus7_part1"
+            android:exported="false" />
+        <activity
+            android:name="VideoHisRus7Class.VideoHisRus7_part2"
+            android:exported="false" />
+        <activity
+            android:name="VideoHisRus7Class.VideoHisRus7_part1"
+            android:exported="false" />
+        <activity
+            android:name="VideoAlg7Class.VideoAlg7_part6"
+            android:exported="false" />
+        <activity
+            android:name="VideoAlg7Class.VideoAlg7_part5"
+            android:exported="false" />
+        <activity
+            android:name="VideoAlg7Class.VideoAlg7_part4"
+            android:exported="false" />
+        <activity
+            android:name="VideoAlg7Class.VideoAlg7_part3"
+            android:exported="false" />
+        <activity
+            android:name="VideoAlg7Class.VideoAlg7_part2"
+            android:exported="false" />
+        <activity
+            android:name="VideoBio7Class.VideoBio7_part3"
+            android:exported="false" />
+        <activity
+            android:name="VideoBio7Class.VideoBio7_part2"
+            android:exported="false" />
+        <activity
+            android:name="VideoBio7Class.VideoBio7_part1"
+            android:exported="false" />
+        <activity
+            android:name="Theme7Class.Theme3HisRus7_part2"
+            android:exported="false" />
+        <activity
+            android:name="Theme7Class.Theme2HisRus7_part2"
+            android:exported="false" />
+        <activity
+            android:name="Theme7Class.ThemeHisRus7_part2"
+            android:exported="false" />
+        <activity
+            android:name="Theme7Class.Theme2HisRus7"
+            android:exported="false" />
+        <activity
+            android:name="Theme7Class.ThemeHisRus7"
+            android:exported="false" />
+        <activity
+            android:name="Theme7Class.Theme6Alg7"
+            android:exported="false" />
+        <activity
+            android:name="Theme7Class.Theme5Alg7"
+            android:exported="false" />
+        <activity
+            android:name="Theme7Class.Theme4Alg7"
+            android:exported="false" />
+        <activity
+            android:name="Theme7Class.Theme3Alg7"
+            android:exported="false" />
+        <activity
+            android:name="Theme7Class.Theme2Alg7"
+            android:exported="false" />
+        <activity
+            android:name="Theme7Class.ThemeAlg7"
+            android:exported="false" />
+        <activity
+            android:name="Theme7Class.Theme3Bio7"
+            android:exported="false" />
+        <activity
+            android:name="Theme7Class.Theme2Bio7"
+            android:exported="false" />
+        <activity
+            android:name="Theme7Class.ThemeBio7"
+            android:exported="false" />
+        <activity
+            android:name="VideoMat6Class.Video2Mat6_part3"
+            android:exported="false" />
+        <activity
+            android:name="VideoMat6Class.Video2Mat6_part2"
+            android:exported="false" />
+        <activity
+            android:name="VideoMat6Class.Video2Mat6_part1"
+            android:exported="false" />
+        <activity
+            android:name="Theme6Class.Theme3Mat6_part2"
+            android:exported="false" />
+        <activity
+            android:name="Theme6Class.Theme2Mat6_part2"
+            android:exported="false" />
+        <activity
+            android:name="Theme6Class.ThemeMat6_part2"
+            android:exported="false" />
+        <activity
+            android:name="VideoMat6Class.VideoMat6_part3"
+            android:exported="false" />
+        <activity
+            android:name="VideoMat6Class.VideoMat6_part2"
+            android:exported="false" />
+        <activity
+            android:name="VideoMat6Class.VideoMat6_part1"
+            android:exported="false" />
+        <activity
+            android:name="Theme6Class.Theme3Mat6"
+            android:exported="false" />
+        <activity
+            android:name="Theme6Class.Theme2Mat6"
+            android:exported="false" />
+        <activity
+            android:name="Theme6Class.ThemeMat6"
+            android:exported="false" />
+        <activity
+            android:name="VideoEng.VideoEng6"
+            android:exported="false" />
+        <activity
+            android:name="Theme6Class.ThemeEng6"
+            android:exported="false" />
+        <activity
+            android:name="VideoComun6Class.VideoComun6_part3"
+            android:exported="false" />
+        <activity
+            android:name="VideoComun6Class.VideoComun6_part2"
+            android:exported="false" />
+        <activity
+            android:name="VideoComun6Class.VideoComun6_part1"
+            android:exported="false" />
+        <activity
+            android:name="Theme6Class.Theme3Comun6"
+            android:exported="false" />
+        <activity
+            android:name="Theme6Class.Theme2Comun6"
+            android:exported="false" />
+        <activity
+            android:name="Theme6Class.ThemeComun6"
+            android:exported="false" />
+        <activity
+            android:name="VideoEng.VideoEng5"
+            android:exported="false" />
+        <activity
+            android:name="Theme5Class.ThemeEng5"
+            android:exported="false" />
+        <activity
+            android:name="VideoMat5Class.Video2Mat5_part3"
+            android:exported="false" />
+        <activity
+            android:name="VideoMat5Class.Video2Mat5_part2"
+            android:exported="false" />
+        <activity
+            android:name="VideoMat5Class.Video2Mat5_part1"
+            android:exported="false" />
+        <activity
+            android:name="VideoMat5Class.VideoMat5_part3"
+            android:exported="false" />
+        <activity
+            android:name="VideoMat5Class.VideoMat5_part2"
+            android:exported="false" />
+        <activity
+            android:name="VideoMat5Class.VideoMat5_part1"
+            android:exported="false" />
+        <activity
+            android:name="Theme5Class.Theme3Mat5_Part2"
+            android:exported="false" />
+        <activity
+            android:name="Theme5Class.Theme2Mat5_Part2"
+            android:exported="false" />
+        <activity
+            android:name="Theme5Class.ThemeMat5_Part2"
+            android:exported="false" />
+        <activity
+            android:name="Theme5Class.Theme3Mat5"
+            android:exported="false" />
+        <activity
+            android:name="Theme5Class.Theme2Mat5"
+            android:exported="false" />
+        <activity
+            android:name="VideoInfor5Class.VideoInfor5_part3"
+            android:exported="false" />
+        <activity
+            android:name="VideoInfor5Class.VideoInfor5_part2"
+            android:exported="false" />
+        <activity
+            android:name="VideoInfor5Class.VideoInfor5_part1"
+            android:exported="false" />
+        <activity
+            android:name="Theme5Class.Theme3Infor5"
+            android:exported="false" />
+        <activity
+            android:name="Theme5Class.Theme2Infor5"
+            android:exported="false" />
+        <activity
+            android:name="Select.Selection_7"
+            android:exported="false" />
+        <activity
+            android:name="Select.Selection_6"
+            android:exported="false" />
+        <activity
+            android:name="Theme5Class.ThemeMat5"
+            android:exported="false" />
+        <activity
+            android:name="Theme5Class.ThemeInfor5"
+            android:exported="false" />
+        <activity
+            android:name="Select.Selection_5"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

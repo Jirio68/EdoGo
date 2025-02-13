@@ -1,0 +1,336 @@
+<resources>
+
+    \\общие надписи
+    <string name="Select">Выберите предмет</string>
+    <string name="ThemeSelect">Выберите тему</string>
+    <string name="ThemeSelect_1part">Выберите тему 1 часть</string>
+    <string name="ThemeSelect_2part">Выберите тему 2 часть</string>
+    <string name="Class_5">Класс 5</string>
+    <string name="Class_6">Класс 6</string>
+    <string name="Class_7">Класс 7</string>
+    <string name="Class_8">Класс 8</string>
+    <string name="Class_9">Класс 9</string>
+    <string name="Class_10">Класс 10</string>
+    <string name="Class_11">Класс 11</string>
+    <string name="VideoOverview">Видео обзоры</string>
+    <string name="see_more">Посмотреть еще</string>
+    <string name="Back">Назад</string>
+    <string name="Subject">Выбор предмета</string>
+    <string name="Video1">Видео 1</string>
+    <string name="Video2">Видео 2</string>
+    <string name="Part2">Часть 2</string>
+    <string name="Part1">Часть 1</string>
+    <string name="Contin">Стр.129</string>
+
+
+    \\надписи для начальной страницы
+    <string name="Select_class">Выберите класс</string>
+
+    \\надписи для предметов
+    <string name="comun5">Обществознание</string>
+    <string name="eng5">Английский язык</string>
+    <string name="mat5">Математика</string>
+    <string name="infor">Информатика</string>
+    <string name="alg">Алгебра</string>
+    <string name="bio">Биология</string>
+    <string name="hisrus">История России</string>
+
+    \\надписи для ссылок по информатике за 5 класс
+    <string name="Elements2">Элементы (стр 5)</string>
+    <string name="SameElementsNames2">Одинаковые элементы Имена (стр 6)</string>
+    <string name="PolygonsOnGrid2">Многоугольники на сетке (стр 10)</string>
+    <string name="Set2">Множество (стр 14)</string>
+    <string name="SameSetsSubset2">Одинаковые (равные) множества. Подмножество (стр 19)</string>
+    <string name="Sequence2">Последовательность (стр 24)</string>
+    <string name="SameSequences2">Одинаковые последовательности (стр 27)</string>
+
+    <string name="TrueAndFalseStatements2">Истинные и ложные утверждения (стр 32)</string>
+    <string name="SequenceMembers2">Члены последовательности (стр 37)</string>
+    <string name="MeaninglessStatements2">Когда утверждения не имеют смысла (стр 38)</string>
+    <string name="StatementsAboutEachElement2">Утверждения о каждом элементе (стр 44)</string>
+    <string name="PolygonArea2">Площадь многоугольника (стр 49)</string>
+    <string name="RightTriangleAreaOnGrid2">Площадь прямоугольного треугольника на сетке (стр 53)</string>
+    <string name="SetsIntersectionAndUnion2">Пересечение и объединение множеств (стр 57)</string>
+
+    <string name="Tree2">Дерево (стр 63)</string>
+    <string name="TreeSequence2">Последовательность из дерева (стр 65)</string>
+    <string name="ParentsAndChildren2">Родители и дети (стр 66)</string>
+    <string name="Performer2">Исполнитель (стр 77)</string>
+    <string name="DirectAndProgrammaticControl2">Прямое и программное управление (стр 94)</string>
+    <string name="Algorithm2">Алгоритм (стр 99)</string>
+    <string name="AlgorithmErrors2">Ошибки в алгоритмах (стр 102)</string>
+
+    \\надписи для ссылок по математике за 5 класс 1 часть
+    <string name="NaturalNumberNotation2">Обозначение натуральных чисел (стр 7)</string>
+    <string name="SegmentTriangle2">Отрезок. Длина отрезка. Треугольник (стр 12)</string>
+    <string name="PlaneLineRay2">Плоскость. Прямая. Луч (стр 20)</string>
+    <string name="ScalesAndCoordinates2">Шкалы и координаты (стр 26)</string>
+    <string name="LessOrMore2">Меньше или больше (стр 32)</string>
+    <string name="AdditionProperties2">Сложение натуральных чисел и его свойства (стр 42)</string>
+    <string name="Subtraction2">Вычитание (стр 51)</string>
+
+
+    <string name="NumericAndLetterExpressions2">Числовые и буквенные выражения (стр 60)</string>
+    <string name="LetterPropertiesOfAdditionAndSubtraction2">Буквенная запись свойств сложения и вычитания (стр 66)</string>
+    <string name="Equation2">Уравнение (стр 71)</string>
+    <string name="MultiplicationProperties2">Умножение натуральных чисел и его свойства (стр 82)</string>
+    <string name="Division2">Деление (стр 90)</string>
+    <string name="DivisionWithRemainder2">Деление с остатком (стр 99)</string>
+    <string name="ExpressionSimplification2">Упрощение выражений (стр 103)</string>
+
+
+    <string name="OrderOfOperations2">Порядок выполнения действий (стр 112)</string>
+    <string name="NumberPowerSquareCube2">Степень числа. Квадрат и куб числа (стр 119)</string>
+    <string name="Formulas2">Формулы (стр 126)</string>
+    <string name="AreaRectangleFormula2">Площадь. Формула площади прямоугольника (стр 132)</string>
+    <string name="AreaUnits2">Единицы измерения площадей (стр 138)</string>
+    <string name="RectangularParallelepiped2">Прямоугольный параллелепипед (стр 146)</string>
+    <string name="VolumeParallelepiped2">Объёмы. Объём прямоугольного параллелепипеда (стр 150)</string>
+
+
+    \\надписи для ссылок по математике за 5 класс 2 часть
+    <string name="CircleAndDisk2">Окружность и круг (стр 7)</string>
+    <string name="FractionsAndParts2">Доли. Обыкновенные дроби (стр 13)</string>
+    <string name="FractionComparison2">Сравнение дробей (стр 21)</string>
+    <string name="ProperAndImproperFractions2">Правильные и неправильные дроби (стр 27)</string>
+    <string name="AdditionAndSubtractionOfFractionsWithSameDenominators2">Сложение и вычитание дробей с одинаковыми знаменателями (стр 31)</string>
+    <string name="DivisionAndFractions2">Деление и дроби (стр 39)</string>
+    <string name="MixedNumbers2">Смешанные числа (стр 45)</string>
+    <string name="AdditionAndSubtractionOfMixedNumbers2">Сложение и вычитание смешанных чисел (стр 51)</string>
+    <string name="DecimalRepresentationOfFractions2">Десятичная запись дробных чисел (стр 61)</string>
+
+
+    <string name="ComparisonOfDecimalFractions2">Сравнение десятичных дробей (стр 67)</string>
+    <string name="AdditionAndSubtractionOfDecimalFractions2">Сложение и вычитание десятичных дробей (стр 73)</string>
+    <string name="ApproximateValuesAndRoundingNumbers2">Приближённые значения чисел. Округление чисел (стр 81)</string>
+    <string name="MultiplicationOfDecimalFractionsByNaturalNumbers2">Умножение десятичных дробей на натуральные числа (стр 90)</string>
+    <string name="DivisionOfDecimalFractionsByNaturalNumbers2">Деление десятичных дробей на натуральные числа (стр 95)</string>
+    <string name="MultiplicationOfDecimalFractions2">Умножение десятичных дробей (стр 102)</string>
+    <string name="DivisionByDecimalFraction2">Деление на десятичную дробь (стр 110)</string>
+    <string name="ArithmeticMean2">Среднее арифметическое (стр 117)</string>
+
+
+    <string name="Calculator2">Микрокалькулятор (стр 126)</string>
+    <string name="Percentages2">Проценты (стр 131)</string>
+    <string name="AngleRightAndStraightAngleDrawingTriangle2">Угол. Прямой и развёрнутый угол. Чертёжный треугольник (стр 139)</string>
+    <string name="MeasuringAnglesProtractor2">Измерение углов. Транспортир (стр 146)</string>
+    <string name="CircleDiagrams2">Круговые диаграммы (стр 154)</string>
+    <string name="SetConcept2">Понятие множества (стр 160)</string>
+    <string name="IntersectionAndUnionOfSets2">Общая часть множеств. Объединение множеств (стр165)</string>
+    <string name="TrueOrFalse2">Верно или неверно (стр 169)</string>
+
+    \\надписи для ссылок по английскому языку за 5 класс
+    <string name="Module1_SchoolDays2">Модуль 1: School days (стр. 43)</string>
+    <string name="Module2_CoolStuff2">Модуль 2: Cool stuff! (стр. 55)</string>
+    <string name="Module3_WhatCanYouDo2">Модуль 3: What can you do? (стр. 67)</string>
+    <string name="Module4_MyHomeMyCastle2">Модуль 4: My home, my castle! (стр. 79)</string>
+    <string name="Module5_FamilyTree2">Модуль 5: Family tree (стр. 91)</string>
+    <string name="Module6_TheAnimalKingdom2">Модуль 6: The animal kingdom (стр. 103)</string>
+    <string name="Module7_WeatherAndClothes2">Модуль 7: Weather and clothes (стр. 115)</string>
+    <string name="Module8_Food2">Модуль 8: Food (стр. 127)</string>
+
+    \\надписи для ссылок по английскому языку за 6 класс
+    <string name="NewFriends_Module">Модуль 1: New friends (стр. 11)</string>
+    <string name="AllAboutMe_Module">Модуль 2: All about me (стр. 23)</string>
+    <string name="FamilyLife_Module">Модуль 3: Family life (стр. 37)</string>
+    <string name="HomeNeighbourhood_Module">Модуль 4: My home and my neighbourhood (стр. 49)</string>
+    <string name="HavingFun_Module">Модуль 5: Having fun (стр. 63)</string>
+    <string name="FoodMatters_Module">Модуль 6: Food matters! (стр. 75)</string>
+    <string name="MyCity_Module">Модуль 7: My city (стр. 89)</string>
+    <string name="LifeInThePast_Module">Модуль 8: Life in the past (стр. 101)</string>
+
+    \\надписи для ссылок по обществознанию за 6 класс
+    <string name="HumanBiologicalSocial">Биологическое и социальное в человеке (стр. 6)</string>
+    <string name="HumanPersonality">Человек - личность (стр. 14)</string>
+    <string name="AdolescencePeriod">Отрочество - особая пора жизни (стр. 22)</string>
+    <string name="HumanNeedsAbilities">Потребности и способности человека (стр. 35)</string>
+    <string name="LimitedPossibilities">Если возможности ограниченны (стр. 42)</string>
+    <string name="ActivityDiversity">Деятельность и многообразие её видов (стр. 51)</string>
+    <string name="HumanCognition">Познание человеком мира и самого себя (стр. 58)</string>
+
+    <string name="CommunicationSkills">Общение (стр. 69)</string>
+    <string name="ConflictResolution">Конфликты: почему они возникают и как их избежать (стр. 78)</string>
+    <string name="SmallGroup2">Человек в малой группе (стр. 84)</string>
+    <string name="FamilyRelations2">Семья и семейные отношения (стр. 91)</string>
+    <string name="SchoolEducation">Школьное образование (стр. 99)</string>
+    <string name="SocietyStructure">Как устроено общество (стр. 107)</string>
+
+    <string name="CountryXXI_2">Наша страна в XXI в. (стр. 115)</string>
+    <string name="EconomyFoundation">Экономика - основа жизни общества (стр. 122)</string>
+    <string name="SocialLife">Социальная сфера жизни общества (стр. 131)</string>
+    <string name="PoliticalWorld">Мир политики (стр. 139)</string>
+    <string name="CulturalAchievements">Культура и её достижения (стр. 147)</string>
+    <string name="SocietyDevelopment2">Развитие общества (стр. 156)</string>
+
+    \\надписи для ссылок по математике 6 класс 1 часть
+    <string name="Arithmetic_Average">Среднее арифметическое (стр 14)</string>
+    <string name="Percentage_Calculations">Проценты (стр 19)</string>
+    <string name="Circle_Diagrams">Представление числовой информации в круговых диаграммах (стр 27)</string>
+    <string name="Types_of_Triangles">Виды треугольников (стр 32)</string>
+    <string name="Set_Theory">Понятие множества (стр 37)</string>
+    <string name="Prime_Decomposition">Разложение числа на простые множители (стр 43)</string>
+    <string name="Greatest_Common_Divisor">Наибольший общий делитель. Взаимно простые числа (стр 50)</string>
+    <string name="Least_Common_Multiple">Наименьшее общее кратное натуральных чисел (стр 55)</string>
+
+    <string name="Fraction_Simplification">Приведение дробей к наименьшему общему знаменателю (стр 60)</string>
+    <string name="Fraction_Operations">Сравнение, сложение и вычитание обыкновенных дробей (стр 64)</string>
+    <string name="Mixed_Number_Addition">Действия сложения и вычитания смешанных чисел (стр 71)</string>
+    <string name="Mixed_Number_Multiplication">Действие умножения смешанных чисел (стр 80)</string>
+    <string name="Fraction_of_Number">Нахождение дроби от числа (стр 87)</string>
+    <string name="Distributive_Property">Применение распределительного свойства умножения (стр 93)</string>
+    <string name="Mixed_Number_Division">Действие деления смешанных чисел (стр 99)</string>
+    <string name="Find_Number_From_Fraction">Нахождение числа по его дроби (стр 106)</string>
+
+    <string name="Fraction_Expressions">Дробные выражения (стр 110)</string>
+    <string name="Ratios_and_Proportions">Отношения (стр 119)</string>
+    <string name="Proportional_Dependencies">Пропорция (стр 125)</string>
+    <string name="Scale_Factor">Масштаб (стр 136)</string>
+    <string name="Geometric_Symmetry">Симметрии (стр 142)</string>
+    <string name="Circle_and_Sphere">Длина окружности и площадь круга. Шар (стр 149)</string>
+
+    \\надписи для ссылок по математике за 6 класс 2 часть
+    <string name="Pos_Neg_Numbers">Положительные и отрицательные числа (стр 6)</string>
+    <string name="Opposing_Numbers">Противоположные числа (стр 15)</string>
+    <string name="Abs_Value">Модуль числа (стр 19)</string>
+    <string name="Compare_Numbers">Сравнение положительных и отрицательных чисел (стр 23)</string>
+    <string name="Variable_Change">Изменение величин (стр 28)</string>
+    <string name="Add_Coord_Line">Сложение положительных и отрицательных чисел с помощью координатной прямой (стр 33)</string>
+    <string name="Add_Negative_Numbers">Сложение отрицательных чисел (стр 37)</string>
+
+    <string name="Add_Different_Signs">Сложение чисел с разными знаками (стр 41)</string>
+    <string name="Subtraction_Action">Действие вычитания (стр 46)</string>
+    <string name="Multiplication_Action">Действие умножения (стр 51)</string>
+    <string name="Division_Action">Действие деления (стр 56)</string>
+    <string name="Rational_Numbers_mat6">Рациональные числа (стр 62)</string>
+    <string name="Properties_Rational_Operations">Свойства действий с рациональными числами (стр 67)</string>
+    <string name="Expand_Brackets">Раскрытие скобок (стр 76)</string>
+
+    <string name="Coefficient_Concept">Коэффициент (стр 81)</string>
+    <string name="Like_Terms_Concept">Подобные слагаемые (стр 85)</string>
+    <string name="Solve_Equations">Решение уравнений (стр 90)</string>
+    <string name="Perpendicular_Lines_mat6">Перпендикулярные прямые (стр 98)</string>
+    <string name="Parallel_Lines_mat6">Параллельные прямые (стр 101)</string>
+    <string name="Coordinate_Plane__mat6">Координатная плоскость (стр 105)</string>
+    <string name="Graph_Data">Представление числовой информации на графиках (стр 110)</string>
+
+    \\надписи для ссылок по биологии за 7 класс
+    <string name="Organisms_Diversity2">Многообразие организмов, их классификация (стр. 6)</string>
+    <string name="Plants_Systematics2">Систематика растений (стр. 10)</string>
+    <string name="Algae_General2">Общая характеристика водорослей (стр. 16)</string>
+    <string name="Algae_Diversity2">Многообразие водорослей (стр. 22)</string>
+    <string name="Higher_Sporophytes2">Высшие споровые растения (стр. 28)</string>
+    <string name="Bryophytes2">Отдел Моховидные (стр. 30)</string>
+    <string name="Ferns_And_Allies2">Отделы Папоротниковидные, Плауновидные, Хвощевидные (стр. 34)</string>
+    <string name="Gymnosperms2">Отдел Голосеменные растения (стр. 42)</string>
+
+    <string name="Angiosperms2">Отдел Покрытосеменные, или Цветковые, растения (стр. 50)</string>
+    <string name="Plant_World_Evolution2">Развитие растительного мира (стр. 56)</string>
+    <string name="Angiosperms_Classification2">Классификация покрытосеменных (стр. 64)</string>
+    <string name="Dicots_12">Класс Двудольные. Семейства Крестоцветные и Розоцветные (стр. 68)</string>
+    <string name="Dicots_22">Класс Двудольные. Семейства Паслёновые, Мотыльковые (Бобовые) и Сложноцветные (Астровые) (стр. 74)</string>
+    <string name="Monocots2">Класс Однодольные. Семейства Лилейные и Злаки (Мятликовые) (стр. 80)</string>
+    <string name="Cultural_Plants2">Многообразие и происхождение культурных растений (стр. 86)</string>
+    <string name="Habitat_Ecology2">Среда обитания растений. Экологические факторы (стр. 98)</string>
+    <string name="Plant_Communities2">Растительные сообщества (стр. 108)</string>
+
+    <string name="Community_Structure2">Структура растительного сообщества (стр. 114)</string>
+    <string name="Plant_Conservation2">Охрана растительного мира (стр. 120)</string>
+    <string name="Bacteria_Structure_Function2">Строение и жизнедеятельность бактерий (стр. 128)</string>
+    <string name="Bacteria_Role2">Роль бактерий в природе и жизни человека (стр. 134)</string>
+    <string name="Fungi_General2">Общая характеристика грибов (стр. 142)</string>
+    <string name="Mushrooms2">Шляпочные грибы (стр. 148)</string>
+    <string name="Molds_And_Yeasts2">Плесневые грибы и дрожжи (стр. 158)</string>
+    <string name="Fungi_Parasites2">Грибы - паразиты растений, животных, человека (стр. 162)</string>
+    <string name="Lichens2">Лишайники (стр. 166)</string>
+
+    \\надписи для ссылок по алгебре за 7 класс
+    <string name="Rational_Numbers_2">Рациональные числа (стр 5)</string>
+    <string name="Numerical_Expressions2">Числовые выражения (стр 11)</string>
+    <string name="Expressions_With_Variables2">Выражения с переменными (стр 14)</string>
+    <string name="Comparing_Expressions2">Сравнение значений выражений (стр 19)</string>
+    <string name="Properties_Of_Operations2">Свойства действий над числами (стр 23)</string>
+    <string name="Identities_Transformations2">Тождества. Тождественные преобразования выражений (стр 26)</string>
+    <string name="Equations_And_Roots2">Уравнение и его корни (стр 32)</string>
+    <string name="Linear_Equations2">Линейное уравнение с одной переменной (стр 34)</string>
+
+    <string name="Solving_Problems_With_Equations2">Решение задач с помощью уравнений (стр 38)</string>
+    <string name="Numerical_Intervals2">Числовые промежутки (стр 51)</string>
+    <string name="What_Is_Function2">Что такое функция (стр 54)</string>
+    <string name="Calculating_Function_Values2">Вычисление значений функции по формуле (стр 58)</string>
+    <string name="Function_Graphs2">График функции (стр 61)</string>
+    <string name="Direct_Proportionality2">Прямая пропорциональность и ее график (стр 69)</string>
+    <string name="Linear_Functions2">Линейная функция и ее график (стр 74)</string>
+    <string name="Piecewise_Functions2">Кусочно-заданные функции (стр 83)</string>
+
+    <string name="Definition_Of_Power2">Определение степени с натуральным показателем (стр 95)</string>
+    <string name="Multiplying_And_Dividing_Powers2">Умножение и деление степеней (стр 101)</string>
+    <string name="Raising_Products_To_A_Power2">Возведение в степень произведения и степени (стр 105)</string>
+    <string name="Monomials2">Одночлен и его стандартный вид (стр 110)</string>
+    <string name="Multiplying_Monomials2">Умножение одночленов. Возведение одночлена в степень (стр 112)</string>
+    <string name="Functions_x2_x3_2">Функции y = x² и y = x³ и их графики (стр 114)</string>
+    <string name="Simple_And_Composite_Numbers2">О простых и составных числах (стр 121)</string>
+
+
+    \\надписи для ссылок по алгебре за 7 класс продолжение
+    <string name="Polynomials2">Многочлен и его стандартный вид (стр 129)</string>
+    <string name="Adding_And_Subtracting_Polynomials2">Сложение и вычитание многочленов (стр 132)</string>
+    <string name="Multiplying_Monomial_By_Polynomial2">Умножение одночлена на многочлен (стр 137)</string>
+    <string name="Common_Factor2">Вынесение общего множителя за скобки (стр 142)</string>
+    <string name="Multiplying_Polynomials2">Умножение многочлена на многочлен (стр 147)</string>
+    <string name="Factoring_By_Grouping2">Разложение многочлена на множители способом группировки (стр 152)</string>
+    <string name="Division_With_Remainder2">Деление с остатком (стр 154)</string>
+    <string name="Squaring_And_Cubing_Sums2">Возведение в квадрат и в куб суммы и разности двух выражений (стр 165)</string>
+
+    <string name="Factoring_Using_Square_Formula2">Разложение на множители с помощью формулы квадрата суммы и квадрата разности (стр 171)</string>
+    <string name="Multiplying_Difference_And_Sum2">Умножение разности двух выражений на их сумму (стр 174)</string>
+    <string name="Factoring_Difference_Of_Squares2">Разложение разности квадратов на множители (стр 179)</string>
+    <string name="Factoring_Sum_And_Difference_Of_Cubes2">Разложение на множители суммы и разности кубов (стр 182)</string>
+    <string name="Polynomial_Transformations2">Преобразование целого выражения в многочлен (стр 185)</string>
+    <string name="Factoring_Methods2">Применение различных способов для разложения на множители (стр 188)</string>
+    <string name="Raising_Binomial_To_Power2">Возведение двучлена в степень (стр 193)</string>
+
+    <string name="Linear_Equations_Two_Variables2">Линейное уравнение с двумя переменными (стр 202)</string>
+    <string name="Graphing_Linear_Equations2">Графики линейного уравнения с двумя переменными (стр 205)</string>
+    <string name="Systems_Of_Equations2">Системы линейных уравнений с двумя переменными (стр 210)</string>
+    <string name="Substitution_Method2">Способ подстановки (стр 214)</string>
+    <string name="Addition_Method2">Способ сложения (стр 218)</string>
+    <string name="Solving_Problems_With_Systems2">Решение задач с помощью систем уравнений (стр 221)</string>
+    <string name="Linear_Inequalities2">Линейные неравенства с двумя переменными и их системы (стр 225)</string>
+
+    \\надписи для ссылок по Истории России за 7 класс 1 часть
+    <string name="World_And_Russia_Beginning_Age_Discoveries2">Мир и Россия в начале эпохи Великих географических открытий (стр. 8)</string>
+    <string name="Russia_Territory_Population_Economy_XVI_2">Территория, население и хозяйство России в начале XVI в. (стр. 14)</string>
+    <string name="Formation_Of_States_In_Europe_And_Russia2">Формирование единых государств в Европе и в России (стр. 21)</string>
+    <string name="Russian_State_First_Third_XVI_2">Российское государство в первой трети XVI в. (стр. 28)</string>
+    <string name="Foreign_Policy_Of_Moscow_First_Third_XVI_2">Внешняя политика Московского княжества в первой трети XVI в. (стр. 35)</string>
+    <string name="Ivan_IV_Reforms_Mid_XVI_2">Начало правления Ивана IV. Реформы середины XVI в. (стр. 42)</string>
+    <string name="States_Volga_Siberia_Mid_XVI_2">Государства Поволжья, Северного Причерноморья, Сибири в середине XVI в. (стр. 51)</string>
+
+    <string name="Russia_Foreign_Policy_Late_XVI_2">Внешняя политика России во второй половине XVI в. (стр. 58)</string>
+    <string name="Russian_Society_XVI_Service_And_Labor2">Российское общество XVI в.: «служилые» и «тяглые» (стр. 70)</string>
+    <string name="Peoples_Of_Russia_Late_XVI_2">Народы России во второй половине XVI в. (стр. 76)</string>
+    <string name="Oprichnina2">Опричнина (стр. 81)</string>
+    <string name="Russia_LateXVI_2">Россия в конце XVI в. (стр. 89)</string>
+    <string name="Church_And_State_XVI_2">Церковь и государство в XVI в. (стр. 95)</string>
+    <string name="Cultural_Space_Russia_XVI_2">Культурное пространство России в XVI в. (стр. 100)</string>
+
+    \\надписи для ссылок по Истории России за 7 класс 2 часть
+    <string name="Russia_Foreign_Relations_LateXVI_EarlyXVII_2">Внешнеполитические связи России с Европой и Азией в конце XVI – начале XVII в. (стр. 4)</string>
+    <string name="Time_Of_Troubles_2">Смута в Российском государстве (стр. 10)</string>
+    <string name="End_Of_Time_Of_Troubles2">Окончание Смутного времени (стр. 21)</string>
+    <string name="Economic_Development_XVII_2">Экономическое развитие России в XVII в. (стр. 29)</string>
+    <string name="Russia_First_Romanovs2">Россия при первых Романовых: перемены в государственном устройстве (стр. 37)</string>
+
+    <string name="Changes_In_Social_Structure_XVII_2">Изменения в социальной структуре российского общества (стр. 44)</string>
+    <string name="Popular_Movements_XVII_2">Народные движения в XVII в. (стр. 50)</string>
+    <string name="Russia_International_Relations2">Россия в системе международных отношений (стр. 57)</string>
+    <string name="Integration_Of_Zaporizhian_Lands2">Под рукой российского государя: вхождение земель Войска Запорожского в состав России (стр. 67)</string>
+    <string name="Russian_Orthodox_Church_Reform2">Русская православная церковь в XVII в. Реформа патриарха Никона и раскол (стр. 75)</string>
+
+    <string name="Peoples_Of_Russia_XVII_2">Народы России в XVII в. (стр. 81)</string>
+    <string name="Russian_Explorers_XVII_2">Русские путешественники и первопроходцы XVII в. (стр. 88)</string>
+    <string name="Cultural_Space_XVII_2">Культурное пространство России в XVII в. (стр. 94)</string>
+    <string name="Estate_Life_And_Worldview2">Сословный быт и картина мира русского человека в XVII в. (стр. 103)</string>
+    <string name="Everyday_Life_Peoples_XVII_2">Повседневная жизнь народов России в XVII в. (стр. 114)</string>
+
+</resources>

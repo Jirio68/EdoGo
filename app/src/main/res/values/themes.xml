@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EdoGo" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="backgroundTint">@color/hat</item> <!-- Цвет фона -->
+        <item name="android:textColor">@color/text</item> <!-- Цвет текста -->
+    </style>
+
+    <style name="Theme.EdoGo" parent="Base.Theme.EdoGo" />
+
+    <style name="Base.Btn" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="backgroundTint">@color/part</item> <!-- Цвет фона -->
+        <item name="android:textColor">@color/text</item> <!-- Цвет текста -->
+    </style>
+
+    <style name="CustomTextStyle">
+        <item name="android:background">#7FFF00</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+</resources>

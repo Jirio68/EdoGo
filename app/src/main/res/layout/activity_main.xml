@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Select_class"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Select_class"
+        android:textSize="24sp"
+        android:background="@drawable/border_background"
+        android:layout_gravity="center"
+        android:paddingBottom="1dp"
+        android:layout_marginBottom="180dp"/>
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Class_5"
+        android:onClick="select5"
+        android:layout_marginBottom="80dp"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Class_6"
+        android:onClick="select6"
+        android:layout_marginBottom="80dp"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Class_7"
+        android:onClick="select7"
+        android:layout_marginBottom="80dp"/>
+
+    <!-- Пустое пространство для сдвига картинки вниз -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:layout_width="163dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:src="@drawable/image1" />
+
+
+</LinearLayout>
