@@ -13,7 +13,7 @@
     </style>
 
     <style name="CustomTextStyle">
-        <item name="android:background">#7FFF00</item>
+        <item name="android:background">#FFFFFF</item>
         <item name="android:textColor">@color/text</item>
     </style>
 
