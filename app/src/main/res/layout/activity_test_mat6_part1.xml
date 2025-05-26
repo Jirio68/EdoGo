@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Вопрос 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Что такое среднее арифметическое?" />
+        <RadioGroup
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Сумма чисел, делённая на их количество" />
+            <RadioButton android:id="@+id/q1b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Произведение чисел" />
+        </RadioGroup>
+
+        <!-- Вопрос 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Как вычислить процент от числа?" />
+        <RadioGroup
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q2a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Умножить число на процент и разделить на 100" />
+            <RadioButton android:id="@+id/q2b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Разделить число на процент" />
+        </RadioGroup>
+
+        <!-- Вопрос 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Что показывает круговая диаграмма?" />
+        <RadioGroup
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q3a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Соотношение частей целого в процентах" />
+            <RadioButton android:id="@+id/q3b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Только числа без связи друг с другом" />
+        </RadioGroup>
+
+        <!-- Вопрос 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Какой треугольник называется равнобедренным?" />
+        <RadioGroup
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Треугольник с двумя равными сторонами" />
+            <RadioButton android:id="@+id/q4b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Треугольник со всеми разными сторонами" />
+        </RadioGroup>
+
+        <!-- Вопрос 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Что такое множество?" />
+        <RadioGroup
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q5a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Набор элементов, объединённых по какому-то признаку" />
+            <RadioButton android:id="@+id/q5b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Отдельное число" />
+        </RadioGroup>
+
+        <!-- Вопрос 6 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Что значит разложить число на простые множители?" />
+        <RadioGroup
+            android:id="@+id/q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q6a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Представить число в виде произведения простых чисел" />
+            <RadioButton android:id="@+id/q6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Представить число в виде суммы простых чисел" />
+        </RadioGroup>
+
+        <!-- Вопрос 7 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Что такое наибольший общий делитель (НОД)?" />
+        <RadioGroup
+            android:id="@+id/q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q7a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Наибольшее число, которое делит оба числа без остатка" />
+            <RadioButton android:id="@+id/q7b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Наименьшее число из двух" />
+        </RadioGroup>
+
+        <!-- Вопрос 8 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Что называют взаимно простыми числами?" />
+        <RadioGroup
+            android:id="@+id/q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q8a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Числа, у которых НОД равен 1" />
+            <RadioButton android:id="@+id/q8b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Числа, у которых общий делитель больше 1" />
+        </RadioGroup>
+
+        <!-- Вопрос 9 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Что такое наименьшее общее кратное (НОК)?" />
+        <RadioGroup
+            android:id="@+id/q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q9a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Наименьшее число, кратное обоим числам" />
+            <RadioButton android:id="@+id/q9b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Наибольшее число, кратное одному из чисел" />
+        </RadioGroup>
+
+        <!-- Вопрос 10 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. Если среднее арифметическое чисел 4 и 6 равно?" />
+        <RadioGroup
+            android:id="@+id/q10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q10a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) 5" />
+            <RadioButton android:id="@+id/q10b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) 10" />
+        </RadioGroup>
+
+        <!-- Вопрос 11 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11. Процент от числа 50, если взять 20%, равен?" />
+        <RadioGroup
+            android:id="@+id/q11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q11a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) 10" />
+            <RadioButton android:id="@+id/q11b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) 25" />
+        </RadioGroup>
+
+        <!-- Вопрос 12 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12. Какую форму имеет круговая диаграмма?" />
+        <RadioGroup
+            android:id="@+id/q12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q12a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Круг" />
+            <RadioButton android:id="@+id/q12b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Квадрат" />
+        </RadioGroup>
+
+        <!-- Вопрос 13 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13. В равностороннем треугольнике все стороны?" />
+        <RadioGroup
+            android:id="@+id/q13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q13a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Равны" />
+            <RadioButton android:id="@+id/q13b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Разные" />
+        </RadioGroup>
+
+        <!-- Вопрос 14 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14. Множество может содержать?" />
+        <RadioGroup
+            android:id="@+id/q14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q14a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Несколько элементов" />
+            <RadioButton android:id="@+id/q14b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Только одно число" />
+        </RadioGroup>
+
+        <!-- Вопрос 15 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15. Разложение числа 12 на простые множители?" />
+        <RadioGroup
+            android:id="@+id/q15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q15a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) 2 × 2 × 3" />
+            <RadioButton android:id="@+id/q15b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) 4 × 3" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/SelectSubjects"
+            style="@style/Base.Theme.EdoGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/Back"
+            android:textColor="@color/text"
+            android:textSize="15sp"
+            android:onClick="Select_Subjest"
+            android:layout_marginEnd="-85dp" />
+
+        <Button
+            android:id="@+id/checkAllButton"
+            android:text="Проверить все"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="-48dp"/>
+
+        <TextView
+            android:id="@+id/finalResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Вопрос 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Что включает в себя структура растительного сообщества?" />
+        <RadioGroup
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Разные виды растений, их взаимоотношения и среда обитания" />
+            <RadioButton android:id="@+id/q1b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Только один вид растения" />
+        </RadioGroup>
+
+        <!-- Вопрос 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Для чего нужна охрана растительного мира?" />
+        <RadioGroup
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q2a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Чтобы сохранить биоразнообразие и предотвратить исчезновение видов" />
+            <RadioButton android:id="@+id/q2b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Чтобы убрать все растения из леса" />
+        </RadioGroup>
+
+        <!-- Вопрос 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Бактерии — это:" />
+        <RadioGroup
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q3a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Одноклеточные организмы без ядра" />
+            <RadioButton android:id="@+id/q3b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Многоклеточные растения" />
+        </RadioGroup>
+
+        <!-- Вопрос 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Основная функция бактерий в природе —" />
+        <RadioGroup
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Разложение органических веществ и круговорот веществ" />
+            <RadioButton android:id="@+id/q4b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Производство кислорода, как у растений" />
+        </RadioGroup>
+
+        <!-- Вопрос 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Какие грибы называются шляпочными?" />
+        <RadioGroup
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q5a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Грибы с телом в виде шляпки и ножки" />
+            <RadioButton android:id="@+id/q5b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Плесневые грибы на хлебе" />
+        </RadioGroup>
+
+        <!-- Вопрос 6 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Плесневые грибы и дрожжи относятся к:" />
+        <RadioGroup
+            android:id="@+id/q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q6a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Грибам, которые используются в пищевой промышленности" />
+            <RadioButton android:id="@+id/q6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Животным" />
+        </RadioGroup>
+
+        <!-- Вопрос 7 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Грибы-паразиты способны:" />
+        <RadioGroup
+            android:id="@+id/q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q7a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Вызывать болезни у растений, животных и человека" />
+            <RadioButton android:id="@+id/q7b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Обеспечивать питание растений" />
+        </RadioGroup>
+
+        <!-- Вопрос 8 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Лишайники — это:" />
+        <RadioGroup
+            android:id="@+id/q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q8a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Симбиотический организм, состоящий из гриба и водоросли" />
+            <RadioButton android:id="@+id/q8b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Вид бактерий" />
+        </RadioGroup>
+
+        <!-- Вопрос 9 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Что входит в жизнедеятельность бактерий?" />
+        <RadioGroup
+            android:id="@+id/q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q9a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Размножение, питание, дыхание" />
+            <RadioButton android:id="@+id/q9b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Фотосинтез" />
+        </RadioGroup>
+
+        <!-- Вопрос 10 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. Растительные сообщества меняются под влиянием:" />
+        <RadioGroup
+            android:id="@+id/q10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q10a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Климатических условий и деятельности человека" />
+            <RadioButton android:id="@+id/q10b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Цвета листьев" />
+        </RadioGroup>
+
+        <!-- Вопрос 11 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11. Как можно охранять растительный мир?" />
+        <RadioGroup
+            android:id="@+id/q11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q11a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Создавать заповедники и национальные парки" />
+            <RadioButton android:id="@+id/q11b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Вырубать все деревья" />
+        </RadioGroup>
+
+        <!-- Вопрос 12 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12. Какую роль играют бактерии в жизни человека?" />
+        <RadioGroup
+            android:id="@+id/q12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q12a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Помогают переваривать пищу и участвуют в производстве лекарств" />
+            <RadioButton android:id="@+id/q12b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Являются ядовитыми для всех людей" />
+        </RadioGroup>
+
+        <!-- Вопрос 13 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13. Грибы — это:" />
+        <RadioGroup
+            android:id="@+id/q13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q13a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Отдельное царство живых организмов" />
+            <RadioButton android:id="@+id/q13b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Виды растений" />
+        </RadioGroup>
+
+        <!-- Вопрос 14 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14. К шляпочным грибам относятся:" />
+        <RadioGroup
+            android:id="@+id/q14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q14a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Белый гриб" />
+            <RadioButton android:id="@+id/q14b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Плесневый гриб" />
+        </RadioGroup>
+
+        <!-- Вопрос 15 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15. Лишайники растут:" />
+        <RadioGroup
+            android:id="@+id/q15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q15a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) На камнях, коре деревьев и почве" />
+            <RadioButton android:id="@+id/q15b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Только в воде" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/SelectSubjects"
+            style="@style/Base.Theme.EdoGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/Back"
+            android:textColor="@color/text"
+            android:textSize="15sp"
+            android:onClick="Select_Subjest"
+            android:layout_marginEnd="-85dp" />
+
+        <Button
+            android:id="@+id/checkAllButton"
+            android:text="Проверить все"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="-48dp"/>
+
+        <TextView
+            android:id="@+id/finalResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/Test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Что такое дерево в информатике?" />
+        <RadioGroup
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="а) Структура с узлами и связями, похожая на ветви" />
+            <RadioButton
+                android:id="@+id/q1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="б) Просто список чисел" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Как называется узел дерева, который не имеет родителей?" />
+        <RadioGroup
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="а) Корень" />
+            <RadioButton
+                android:id="@+id/q2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="б) Лист" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Что называют детьми узла дерева?" />
+        <RadioGroup
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="а) Узлы, напрямую связанные и ниже данного узла" />
+            <RadioButton
+                android:id="@+id/q3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="б) Узлы на том же уровне" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Что такое последовательность из дерева?" />
+        <RadioGroup
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="а) Способ пройти по всем узлам дерева в определённом порядке" />
+            <RadioButton
+                android:id="@+id/q4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="б) Набор случайных чисел" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Кто такой исполнитель в информатике?" />
+        <RadioGroup
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="а) Тот, кто выполняет команды алгоритма" />
+            <RadioButton
+                android:id="@+id/q5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="б) Программа, которая пишет текст" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Что такое прямое управление?" />
+        <RadioGroup
+            android:id="@+id/q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q6a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="а) Когда команды даются и выполняются по очереди вручную" />
+            <RadioButton
+                android:id="@+id/q6b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="б) Когда команды выполняются в случайном порядке" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Что такое программное управление?" />
+        <RadioGroup
+            android:id="@+id/q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q7a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="а) Управление командами с помощью заранее написанной программы" />
+            <RadioButton
+                android:id="@+id/q7b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="б) Команды даёт человек каждый раз" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Что такое алгоритм?" />
+        <RadioGroup
+            android:id="@+id/q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q8a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="а) Пошаговое описание действий для решения задачи" />
+            <RadioButton
+                android:id="@+id/q8b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="б) Результат работы программы" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Можно ли назвать алгоритмом набор случайных действий?" />
+        <RadioGroup
+            android:id="@+id/q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q9a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="а) Нет, алгоритм должен быть чётким и понятным" />
+            <RadioButton
+                android:id="@+id/q9b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="б) Да, если они выполняются быстро" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. Что происходит, если в алгоритме есть ошибка?" />
+        <RadioGroup
+            android:id="@+id/q10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q10a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="а) Результат может быть неправильным или программа не будет работать" />
+            <RadioButton
+                android:id="@+id/q10b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="б) Ничего не изменится" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11. Что такое лист дерева?" />
+        <RadioGroup
+            android:id="@+id/q11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q11a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="а) Узел дерева, не имеющий потомков" />
+            <RadioButton
+                android:id="@+id/q11b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="б) Узел дерева, имеющий родителей" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12. Что такое вершина дерева?" />
+        <RadioGroup
+            android:id="@+id/q12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q12a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="а) Узел дерева" />
+            <RadioButton
+                android:id="@+id/q12b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="б) Связь между узлами" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13. Что такое степень узла?" />
+        <RadioGroup
+            android:id="@+id/q13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q13a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="а) Количество детей у узла" />
+            <RadioButton
+                android:id="@+id/q13b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="б) Высота дерева" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14. Что такое путь в дереве?" />
+        <RadioGroup
+            android:id="@+id/q14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q14a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="а) Последовательность узлов, соединённых ребрами" />
+            <RadioButton
+                android:id="@+id/q14b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="б) Ребро, не соединённое с узлами" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15. Что называется глубиной узла?" />
+        <RadioGroup
+            android:id="@+id/q15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/q15a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="а) Количество ребер от корня до данного узла" />
+            <RadioButton
+                android:id="@+id/q15b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="б) Количество детей узла" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/SelectSubjects"
+            style="@style/Base.Theme.EdoGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/Back"
+            android:textColor="@color/text"
+            android:textSize="15sp"
+            android:onClick="Select_Subjest"
+            android:layout_marginEnd="-85dp"
+            />
+
+        <Button
+            android:id="@+id/checkAllButton"
+            android:text="Проверить все"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="-48dp"/>
+
+        <TextView
+            android:id="@+id/finalResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:paddingTop="16dp"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</ScrollView>

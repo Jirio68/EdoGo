@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Вопрос 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Что происходит при сложении чисел с разными знаками?" />
+        <RadioGroup
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Вычитаются модули чисел, знак берётся того числа, у которого модуль больше" />
+            <RadioButton android:id="@+id/q1b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Складываются модули чисел, знак всегда положительный" />
+        </RadioGroup>
+
+        <!-- Вопрос 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Результат действия вычитания 7 - 5 равен:" />
+        <RadioGroup
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q2a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) 2" />
+            <RadioButton android:id="@+id/q2b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) 12" />
+        </RadioGroup>
+
+        <!-- Вопрос 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Умножение числа 4 на -3 даёт:" />
+        <RadioGroup
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q3a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) -12" />
+            <RadioButton android:id="@+id/q3b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) 12" />
+        </RadioGroup>
+
+        <!-- Вопрос 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Деление -20 на 5 равно:" />
+        <RadioGroup
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) -4" />
+            <RadioButton android:id="@+id/q4b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) 4" />
+        </RadioGroup>
+
+        <!-- Вопрос 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Рациональные числа — это числа, которые можно представить в виде:" />
+        <RadioGroup
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q5a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Дроби, где числитель и знаменатель — целые числа" />
+            <RadioButton android:id="@+id/q5b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Только целые числа" />
+        </RadioGroup>
+
+        <!-- Вопрос 6 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Свойство распределения умножения относительно сложения — это:" />
+        <RadioGroup
+            android:id="@+id/q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q6a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) a*(b + c) = ab + ac" />
+            <RadioButton android:id="@+id/q6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) a*(b + c) = ab - ac" />
+        </RadioGroup>
+
+        <!-- Вопрос 7 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Раскройте скобки: 3*(2 + 5) =" />
+        <RadioGroup
+            android:id="@+id/q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q7a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) 21" />
+            <RadioButton android:id="@+id/q7b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) 16" />
+        </RadioGroup>
+
+        <!-- Вопрос 8 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Что происходит при сложении 5 и -8?" />
+        <RadioGroup
+            android:id="@+id/q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q8a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Вычитаются числа, результат -3" />
+            <RadioButton android:id="@+id/q8b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Складываются числа, результат 13" />
+        </RadioGroup>
+
+        <!-- Вопрос 9 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Вычесть -4 из 6 значит:" />
+        <RadioGroup
+            android:id="@+id/q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q9a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) 6 - (-4) = 10" />
+            <RadioButton android:id="@+id/q9b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) 6 - (-4) = 2" />
+        </RadioGroup>
+
+        <!-- Вопрос 10 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. Какой результат умножения -7 на -2?" />
+        <RadioGroup
+            android:id="@+id/q10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q10a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) 14" />
+            <RadioButton android:id="@+id/q10b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) -14" />
+        </RadioGroup>
+
+        <!-- Вопрос 11 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11. Деление 18 на -3 равно:" />
+        <RadioGroup
+            android:id="@+id/q11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q11a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) -6" />
+            <RadioButton android:id="@+id/q11b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) 6" />
+        </RadioGroup>
+
+        <!-- Вопрос 12 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12. Число 3/4 — это:" />
+        <RadioGroup
+            android:id="@+id/q12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q12a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Рациональное число" />
+            <RadioButton android:id="@+id/q12b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Иррациональное число" />
+        </RadioGroup>
+
+        <!-- Вопрос 13 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13. Распределительное свойство применяется к выражению:" />
+        <RadioGroup
+            android:id="@+id/q13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q13a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) 2*(3 + 4)" />
+            <RadioButton android:id="@+id/q13b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) 2 + 3*4" />
+        </RadioGroup>
+
+        <!-- Вопрос 14 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14. Раскрывая скобки: 5*(x - 2), получаем:" />
+        <RadioGroup
+            android:id="@+id/q14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q14a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) 5x - 10" />
+            <RadioButton android:id="@+id/q14b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) 5x + 10" />
+        </RadioGroup>
+
+        <!-- Вопрос 15 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15. Сложение чисел -9 и 6 даёт:" />
+        <RadioGroup
+            android:id="@+id/q15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q15a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) -3" />
+            <RadioButton android:id="@+id/q15b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) 15" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/SelectSubjects"
+            style="@style/Base.Theme.EdoGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/Back"
+            android:textColor="@color/text"
+            android:textSize="15sp"
+            android:onClick="Select_Subjest"
+            android:layout_marginEnd="-85dp" />
+
+        <Button
+            android:id="@+id/checkAllButton"
+            android:text="Проверить все"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="-48dp"/>
+
+        <TextView
+            android:id="@+id/finalResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>

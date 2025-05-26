@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Вопрос 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Что такое покрытосеменные растения?" />
+        <RadioGroup
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Растения, у которых семена находятся в плоде" />
+            <RadioButton android:id="@+id/q1b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Растения, у которых семена открыты" />
+        </RadioGroup>
+
+        <!-- Вопрос 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Какое из растений относится к покрытосеменным?" />
+        <RadioGroup
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q2a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Роза" />
+            <RadioButton android:id="@+id/q2b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Мох" />
+        </RadioGroup>
+
+        <!-- Вопрос 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Эволюция растительного мира связана с:" />
+        <RadioGroup
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q3a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Появлением цветковых растений" />
+            <RadioButton android:id="@+id/q3b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Исчезновением всех растений" />
+        </RadioGroup>
+
+        <!-- Вопрос 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Двудольные растения имеют:" />
+        <RadioGroup
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Два семядольных листа" />
+            <RadioButton android:id="@+id/q4b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Один семядольный лист" />
+        </RadioGroup>
+
+        <!-- Вопрос 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. К семейству крестоцветных относится:" />
+        <RadioGroup
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q5a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Капуста" />
+            <RadioButton android:id="@+id/q5b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Овёс" />
+        </RadioGroup>
+
+        <!-- Вопрос 6 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Растения семейства паслёновых включают:" />
+        <RadioGroup
+            android:id="@+id/q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q6a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Картофель" />
+            <RadioButton android:id="@+id/q6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Пшеницу" />
+        </RadioGroup>
+
+        <!-- Вопрос 7 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Однодольные растения отличаются тем, что:" />
+        <RadioGroup
+            android:id="@+id/q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q7a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Имеют один семядольный лист" />
+            <RadioButton android:id="@+id/q7b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Имеют два семядольных листа" />
+        </RadioGroup>
+
+        <!-- Вопрос 8 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Класс однодольных включает семейства:" />
+        <RadioGroup
+            android:id="@+id/q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q8a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Лилейные и злаки" />
+            <RadioButton android:id="@+id/q8b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Крестоцветные и розоцветные" />
+        </RadioGroup>
+
+        <!-- Вопрос 9 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Культурные растения — это:" />
+        <RadioGroup
+            android:id="@+id/q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q9a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Растения, выращиваемые человеком" />
+            <RadioButton android:id="@+id/q9b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Дикие растения в лесу" />
+        </RadioGroup>
+
+        <!-- Вопрос 10 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. Экологические факторы среды обитания включают:" />
+        <RadioGroup
+            android:id="@+id/q10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q10a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Температуру, свет, воду" />
+            <RadioButton android:id="@+id/q10b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Цвет цветов" />
+        </RadioGroup>
+
+        <!-- Вопрос 11 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11. Что такое растительное сообщество?" />
+        <RadioGroup
+            android:id="@+id/q11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q11a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Группа разных растений, живущих вместе" />
+            <RadioButton android:id="@+id/q11b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Один вид растения" />
+        </RadioGroup>
+
+        <!-- Вопрос 12 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12. Какой из факторов влияет на рост растений?" />
+        <RadioGroup
+            android:id="@+id/q12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q12a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Влажность воздуха" />
+            <RadioButton android:id="@+id/q12b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Вкус плодов" />
+        </RadioGroup>
+
+        <!-- Вопрос 13 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="13. К классу двудольных относится:" />
+        <RadioGroup
+            android:id="@+id/q13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q13a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Роза" />
+            <RadioButton android:id="@+id/q13b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Кукуруза" />
+        </RadioGroup>
+
+        <!-- Вопрос 14 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14. В злаках содержится:" />
+        <RadioGroup
+            android:id="@+id/q14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q14a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Много клетчатки" />
+            <RadioButton android:id="@+id/q14b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Много жиров" />
+        </RadioGroup>
+
+        <!-- Вопрос 15 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15. Цветковые растения играют важную роль, потому что:" />
+        <RadioGroup
+            android:id="@+id/q15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q15a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Обеспечивают пищу и кислород" />
+            <RadioButton android:id="@+id/q15b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Уничтожают почву" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/SelectSubjects"
+            style="@style/Base.Theme.EdoGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/Back"
+            android:textColor="@color/text"
+            android:textSize="15sp"
+            android:onClick="Select_Subjest"
+            android:layout_marginEnd="-85dp" />
+
+        <Button
+            android:id="@+id/checkAllButton"
+            android:text="Проверить все"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="-48dp"/>
+
+        <TextView
+            android:id="@+id/finalResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>

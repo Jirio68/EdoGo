@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Вопрос 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Что такое многочлен?" />
+        <RadioGroup
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Алгебраическое выражение, состоящее из суммы одночленов" />
+            <RadioButton android:id="@+id/q1b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Произведение двух чисел" />
+        </RadioGroup>
+
+        <!-- Вопрос 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Как называется стандартный вид многочлена?" />
+        <RadioGroup
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q2a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Сумма одночленов, упорядоченных по степеням переменных" />
+            <RadioButton android:id="@+id/q2b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Произведение одночленов" />
+        </RadioGroup>
+
+        <!-- Вопрос 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Что происходит при сложении многочленов?" />
+        <RadioGroup
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q3a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Складываются подобные слагаемые" />
+            <RadioButton android:id="@+id/q3b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Все члены перемножаются" />
+        </RadioGroup>
+
+        <!-- Вопрос 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Как вычесть многочлены?" />
+        <RadioGroup
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Из каждого члена второго многочлена вычитают соответствующий член первого" />
+            <RadioButton android:id="@+id/q4b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Все слагаемые второго многочлена умножают на -1 и складывают с первым многочленом" />
+        </RadioGroup>
+
+        <!-- Вопрос 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Что происходит при умножении одночлена на многочлен?" />
+        <RadioGroup
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q5a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Каждый член многочлена умножается на одночлен" />
+            <RadioButton android:id="@+id/q5b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Одночлен складывается с каждым членом многочлена" />
+        </RadioGroup>
+
+        <!-- Вопрос 6 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Что значит вынести общий множитель за скобки?" />
+        <RadioGroup
+            android:id="@+id/q6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q6a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Найти общий множитель всех членов и представить многочлен в виде произведения" />
+            <RadioButton android:id="@+id/q6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Разложить многочлен на сумму одночленов" />
+        </RadioGroup>
+
+        <!-- Вопрос 7 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Как умножить многочлен на многочлен?" />
+        <RadioGroup
+            android:id="@+id/q7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q7a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Каждый член первого многочлена умножается на каждый член второго и результаты складываются" />
+            <RadioButton android:id="@+id/q7b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Складываются первые члены многочленов" />
+        </RadioGroup>
+
+        <!-- Вопрос 8 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Что такое разложение многочлена способом группировки?" />
+        <RadioGroup
+            android:id="@+id/q8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q8a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Разделение многочлена на группы с общими множителями, затем вынесение этих множителей за скобки" />
+            <RadioButton android:id="@+id/q8b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Умножение одночлена на многочлен" />
+        </RadioGroup>
+
+        <!-- Вопрос 9 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Что такое деление с остатком в алгебре?" />
+        <RadioGroup
+            android:id="@+id/q9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q9a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Деление многочлена на многочлен с получением частного и остатка" />
+            <RadioButton android:id="@+id/q9b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Деление чисел без остатка" />
+        </RadioGroup>
+
+        <!-- Вопрос 10 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. Какова формула квадрата суммы двух выражений?" />
+        <RadioGroup
+            android:id="@+id/q10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q10a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) (a+b)^2 = a^2 + 2ab + b^2" />
+            <RadioButton android:id="@+id/q10b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) (a+b)^2 = a^2 − 2ab + b^2" />
+        </RadioGroup>
+
+        <!-- Вопрос 11 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11. Какова формула куба суммы двух выражений?" />
+        <RadioGroup
+            android:id="@+id/q11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q11a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) (a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3" />
+            <RadioButton android:id="@+id/q11b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) (a+b)^3 = a^3 − 3a^2b + 3ab^2 − b^3" />
+        </RadioGroup>
+
+        <!-- Вопрос 12 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12. Как упростить выражение (x−y)^2?" />
+        <RadioGroup
+            android:id="@+id/q12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q12a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) x^2 − 2xy + y^2" />
+            <RadioButton android:id="@+id/q12b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) x^2 + 2xy + y^2" />
+        </RadioGroup>
+
+        <!-- Вопрос 13 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14. При умножении одночлена на многочлен степень переменной..." />
+        <RadioGroup
+            android:id="@+id/q13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q13a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Суммируется с показателями степеней в многочлене" />
+            <RadioButton android:id="@+id/q13b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Всегда уменьшается" />
+        </RadioGroup>
+
+        <!-- Вопрос 14 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="14. Что нужно сделать, чтобы вынести общий множитель из выражения 3x^2 + 6x?" />
+        <RadioGroup
+            android:id="@+id/q14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q14a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Вынести 3x за скобки: 3x(x+2)" />
+            <RadioButton android:id="@+id/q14b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Вынести только 3: 3(x^2 + 6x)" />
+        </RadioGroup>
+
+        <!-- Вопрос 15 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15. Как называется многочлен, полученный после деления с остатком?" />
+        <RadioGroup
+            android:id="@+id/q15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q15a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Частное" />
+            <RadioButton android:id="@+id/q15b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Остаток" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/SelectSubjects"
+            style="@style/Base.Theme.EdoGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/Back"
+            android:textColor="@color/text"
+            android:textSize="15sp"
+            android:onClick="Select_Subjest"
+            android:layout_marginEnd="-85dp" />
+
+        <Button
+            android:id="@+id/checkAllButton"
+            android:text="Проверить все"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="-48dp"/>
+
+        <TextView
+            android:id="@+id/finalResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>

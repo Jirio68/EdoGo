@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1. Что называют истинным утверждением?" />
+        <RadioGroup android:id="@+id/q1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) То, что соответствует действительности" />
+            <RadioButton android:id="@+id/q1b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) То, что кто-то придумал" />
+        </RadioGroup>
+
+        <TextView android:text="2. Какое утверждение ложно?" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioGroup android:id="@+id/q2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q2a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Зимой идёт снег" />
+            <RadioButton android:id="@+id/q2b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Собаки умеют летать" />
+        </RadioGroup>
+
+        <TextView android:text="3. Кто или что может быть членом последовательности?" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioGroup android:id="@+id/q3" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q3a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Только числа" />
+            <RadioButton android:id="@+id/q3b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Любые объекты, записанные в определённом порядке" />
+        </RadioGroup>
+
+        <TextView android:text="4. В последовательности {5, 8, 13} какой элемент стоит на втором месте?" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioGroup android:id="@+id/q4" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) 5" />
+            <RadioButton android:id="@+id/q4b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) 8" />
+        </RadioGroup>
+
+        <TextView android:text="5. Какое утверждение не имеет смысла?" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioGroup android:id="@+id/q5" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q5a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Квадрат имеет четыре стороны" />
+            <RadioButton android:id="@+id/q5b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Четверг — зелёный" />
+        </RadioGroup>
+
+        <TextView android:text="6. Когда утверждение не имеет смысла?" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioGroup android:id="@+id/q6" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q6a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Когда оно не связано с реальными объектами" />
+            <RadioButton android:id="@+id/q6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Когда в нём есть слово «и»" />
+        </RadioGroup>
+
+        <TextView android:text="7. Что значит утверждение о каждом элементе?" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioGroup android:id="@+id/q7" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q7a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Оно проверяется для одного элемента" />
+            <RadioButton android:id="@+id/q7b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Оно должно быть верно для всех элементов" />
+        </RadioGroup>
+
+        <TextView android:text="8. Какое утверждение о каждом числе в множестве {2, 4, 6}?" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioGroup android:id="@+id/q8" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q8a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Каждое число чётное" />
+            <RadioButton android:id="@+id/q8b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Некоторые числа нечётные" />
+        </RadioGroup>
+
+        <TextView android:text="9. Что называют площадью многоугольника?" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioGroup android:id="@+id/q9" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q9a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Количество его сторон" />
+            <RadioButton android:id="@+id/q9b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Пространство внутри фигуры" />
+        </RadioGroup>
+
+        <TextView android:text="10. Как можно найти площадь прямоугольника на сетке?" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioGroup android:id="@+id/q10" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q10a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Посчитать количество клеток внутри фигуры" />
+            <RadioButton android:id="@+id/q10b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Посчитать его углы" />
+        </RadioGroup>
+
+        <TextView android:text="11. Что такое прямоугольный треугольник?" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioGroup android:id="@+id/q11" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q11a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Треугольник с одним прямым углом" />
+            <RadioButton android:id="@+id/q11b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Треугольник с четырьмя сторонами" />
+        </RadioGroup>
+
+        <TextView android:text="12. Как найти площадь прямоугольного треугольника на сетке?" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioGroup android:id="@+id/q12" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q12a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Умножить длины катетов и разделить на два" />
+            <RadioButton android:id="@+id/q12b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Посчитать все стороны" />
+        </RadioGroup>
+
+        <TextView android:text="13. Что такое объединение множеств?" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioGroup android:id="@+id/q13" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q13a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Множество, содержащее все элементы из обоих" />
+            <RadioButton android:id="@+id/q13b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Только одинаковые элементы из двух множеств" />
+        </RadioGroup>
+
+        <TextView android:text="14. Что такое пересечение множеств?" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioGroup android:id="@+id/q14" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q14a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) Все элементы, которые есть хотя бы в одном" />
+            <RadioButton android:id="@+id/q14b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) Только элементы, которые есть в обоих множествах" />
+        </RadioGroup>
+
+        <TextView android:text="15. Что получится при пересечении множеств {1, 2, 3} и {2, 3, 4}?" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <RadioGroup android:id="@+id/q15" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@+id/q15a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="а) {2, 3}" />
+            <RadioButton android:id="@+id/q15b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="б) {1, 2, 3, 4}" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/SelectSubjects"
+            style="@style/Base.Theme.EdoGo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/Back"
+            android:textColor="@color/text"
+            android:textSize="15sp"
+            android:onClick="Select_Subjest"
+            android:layout_marginEnd="-85dp"
+            />
+
+        <Button
+            android:id="@+id/checkAllButton"
+            android:text="Проверить все"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="-48dp"/>
+
+        <TextView android:id="@+id/finalResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text=""
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

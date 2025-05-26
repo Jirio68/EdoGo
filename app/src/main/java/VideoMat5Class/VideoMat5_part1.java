@@ -14,6 +14,9 @@ import androidx.core.view.WindowInsetsCompat;
 import com.jirio.edogo.R;
 
 import Select.Selection_5;
+import TestMat5.TestMat5_part1;
+import TestMat6.Test2Mat6_part1;
+import TestMat6.TestMat6_part1;
 
 public class VideoMat5_part1 extends AppCompatActivity {
 
@@ -27,6 +30,11 @@ public class VideoMat5_part1 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void Test(View v) {
+        Intent intent = new Intent(this, TestMat5_part1.class);
+        startActivity(intent);
     }
 
     public void Select_Subjest(View view) {

@@ -13,6 +13,11 @@ import androidx.core.view.WindowInsetsCompat;
 import Select.Selection_5;
 import Select.Selection_6;
 import Select.Selection_7;
+import TestBio7.TestBio7_part1;
+import TestInfor5.TestInfor5_part1;
+import TestMat5.TestMat5_part3;
+import VideoHisRus7Class.Video2HisRus7_part1;
+import VideoHisRus7Class.Video2HisRus7_part2;
 
 public class MainActivity extends AppCompatActivity {
 

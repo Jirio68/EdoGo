@@ -15,6 +15,108 @@
         android:theme="@style/Theme.EdoGo"
         tools:targetApi="31">
         <activity
+            android:name=".TestAlg7Class_part6"
+            android:exported="false" />
+        <activity
+            android:name=".TestAlg7Class_part5"
+            android:exported="false" />
+        <activity
+            android:name=".TestAlg7Class_part4"
+            android:exported="false" />
+        <activity
+            android:name=".TestAlg7Class_part3"
+            android:exported="false" />
+        <activity
+            android:name=".TestAlg7Class_part2"
+            android:exported="false" />
+        <activity
+            android:name=".TestAlg7Class_part1"
+            android:exported="false" />
+        <activity
+            android:name="TestHisRus7.Test2HisRus7_part3"
+            android:exported="false" />
+        <activity
+            android:name="TestHisRus7.Test2HisRus7_part2"
+            android:exported="false" />
+        <activity
+            android:name="TestHisRus7.Test2HisRus7_part1"
+            android:exported="false" />
+        <activity
+            android:name="TestHisRus7.TestHisRus7_part2"
+            android:exported="false" />
+        <activity
+            android:name="TestHisRus7.TestHisRus7_part1"
+            android:exported="false" />
+        <activity
+            android:name="TestBio7.TestBio7_part3"
+            android:exported="false" />
+        <activity
+            android:name="TestBio7.TestBio7_part2"
+            android:exported="false" />
+        <activity
+            android:name="TestBio7.TestBio7_part1"
+            android:exported="false" />
+        <activity
+            android:name="TestMat6.Test2Mat6_part3"
+            android:exported="false" />
+        <activity
+            android:name="TestMat6.Test2Mat6_part2"
+            android:exported="false" />
+        <activity
+            android:name="TestMat6.Test2Mat6_part1"
+            android:exported="false" />
+        <activity
+            android:name="TestMat6.TestMat6_part3"
+            android:exported="false" />
+        <activity
+            android:name="TestMat6.TestMat6_part2"
+            android:exported="false" />
+        <activity
+            android:name="TestMat6.TestMat6_part1"
+            android:exported="false" />
+        <activity
+            android:name="TestComun6.TestComun6_part3"
+            android:exported="false" />
+        <activity
+            android:name="TestComun6.TestComun6_part2"
+            android:exported="false" />
+        <activity
+            android:name="TestComun6.TestComun6_part1"
+            android:exported="false" />
+        <activity
+            android:name="TestEng.TestEng6"
+            android:exported="false" />
+        <activity
+            android:name="TestEng.TestEng5"
+            android:exported="false" />
+        <activity
+            android:name="TestMat5.Test2Mat5_part3"
+            android:exported="false" />
+        <activity
+            android:name="TestMat5.TestMat5_part3$Test2Mat5_part2"
+            android:exported="false" />
+        <activity
+            android:name="TestMat5.Test2Mat5_part1"
+            android:exported="false" />
+        <activity
+            android:name="TestMat5.TestMat5_part3"
+            android:exported="false" />
+        <activity
+            android:name="TestMat5.TestMat5_part2"
+            android:exported="false" />
+        <activity
+            android:name="TestMat5.TestMat5_part1"
+            android:exported="false" />
+        <activity
+            android:name="TestInfor5.TestInfor5_part3"
+            android:exported="false" />
+        <activity
+            android:name="TestInfor5.TestInfor5_part2"
+            android:exported="false" />
+        <activity
+            android:name="TestInfor5.TestInfor5_part1"
+            android:exported="false" />
+        <activity
             android:name="VideoAlg7Class.VideoAlg7_part1"
             android:exported="false" />
         <activity
@@ -57,48 +159,6 @@
             android:name="VideoBio7Class.VideoBio7_part1"
             android:exported="false" />
         <activity
-            android:name="Theme7Class.Theme3HisRus7_part2"
-            android:exported="false" />
-        <activity
-            android:name="Theme7Class.Theme2HisRus7_part2"
-            android:exported="false" />
-        <activity
-            android:name="Theme7Class.ThemeHisRus7_part2"
-            android:exported="false" />
-        <activity
-            android:name="Theme7Class.Theme2HisRus7"
-            android:exported="false" />
-        <activity
-            android:name="Theme7Class.ThemeHisRus7"
-            android:exported="false" />
-        <activity
-            android:name="Theme7Class.Theme6Alg7"
-            android:exported="false" />
-        <activity
-            android:name="Theme7Class.Theme5Alg7"
-            android:exported="false" />
-        <activity
-            android:name="Theme7Class.Theme4Alg7"
-            android:exported="false" />
-        <activity
-            android:name="Theme7Class.Theme3Alg7"
-            android:exported="false" />
-        <activity
-            android:name="Theme7Class.Theme2Alg7"
-            android:exported="false" />
-        <activity
-            android:name="Theme7Class.ThemeAlg7"
-            android:exported="false" />
-        <activity
-            android:name="Theme7Class.Theme3Bio7"
-            android:exported="false" />
-        <activity
-            android:name="Theme7Class.Theme2Bio7"
-            android:exported="false" />
-        <activity
-            android:name="Theme7Class.ThemeBio7"
-            android:exported="false" />
-        <activity
             android:name="VideoMat6Class.Video2Mat6_part3"
             android:exported="false" />
         <activity
@@ -106,15 +166,6 @@
             android:exported="false" />
         <activity
             android:name="VideoMat6Class.Video2Mat6_part1"
-            android:exported="false" />
-        <activity
-            android:name="Theme6Class.Theme3Mat6_part2"
-            android:exported="false" />
-        <activity
-            android:name="Theme6Class.Theme2Mat6_part2"
-            android:exported="false" />
-        <activity
-            android:name="Theme6Class.ThemeMat6_part2"
             android:exported="false" />
         <activity
             android:name="VideoMat6Class.VideoMat6_part3"
@@ -126,19 +177,7 @@
             android:name="VideoMat6Class.VideoMat6_part1"
             android:exported="false" />
         <activity
-            android:name="Theme6Class.Theme3Mat6"
-            android:exported="false" />
-        <activity
-            android:name="Theme6Class.Theme2Mat6"
-            android:exported="false" />
-        <activity
-            android:name="Theme6Class.ThemeMat6"
-            android:exported="false" />
-        <activity
             android:name="VideoEng.VideoEng6"
-            android:exported="false" />
-        <activity
-            android:name="Theme6Class.ThemeEng6"
             android:exported="false" />
         <activity
             android:name="VideoComun6Class.VideoComun6_part3"
@@ -150,19 +189,7 @@
             android:name="VideoComun6Class.VideoComun6_part1"
             android:exported="false" />
         <activity
-            android:name="Theme6Class.Theme3Comun6"
-            android:exported="false" />
-        <activity
-            android:name="Theme6Class.Theme2Comun6"
-            android:exported="false" />
-        <activity
-            android:name="Theme6Class.ThemeComun6"
-            android:exported="false" />
-        <activity
             android:name="VideoEng.VideoEng5"
-            android:exported="false" />
-        <activity
-            android:name="Theme5Class.ThemeEng5"
             android:exported="false" />
         <activity
             android:name="VideoMat5Class.Video2Mat5_part3"
@@ -183,21 +210,6 @@
             android:name="VideoMat5Class.VideoMat5_part1"
             android:exported="false" />
         <activity
-            android:name="Theme5Class.Theme3Mat5_Part2"
-            android:exported="false" />
-        <activity
-            android:name="Theme5Class.Theme2Mat5_Part2"
-            android:exported="false" />
-        <activity
-            android:name="Theme5Class.ThemeMat5_Part2"
-            android:exported="false" />
-        <activity
-            android:name="Theme5Class.Theme3Mat5"
-            android:exported="false" />
-        <activity
-            android:name="Theme5Class.Theme2Mat5"
-            android:exported="false" />
-        <activity
             android:name="VideoInfor5Class.VideoInfor5_part3"
             android:exported="false" />
         <activity
@@ -207,22 +219,10 @@
             android:name="VideoInfor5Class.VideoInfor5_part1"
             android:exported="false" />
         <activity
-            android:name="Theme5Class.Theme3Infor5"
-            android:exported="false" />
-        <activity
-            android:name="Theme5Class.Theme2Infor5"
-            android:exported="false" />
-        <activity
             android:name="Select.Selection_7"
             android:exported="false" />
         <activity
             android:name="Select.Selection_6"
-            android:exported="false" />
-        <activity
-            android:name="Theme5Class.ThemeMat5"
-            android:exported="false" />
-        <activity
-            android:name="Theme5Class.ThemeInfor5"
             android:exported="false" />
         <activity
             android:name="Select.Selection_5"

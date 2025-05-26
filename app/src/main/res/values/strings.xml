@@ -2,6 +2,7 @@
 
     \\общие надписи
     <string name="Select">Выберите предмет</string>
+    <string name="Test">Тест</string>
     <string name="ThemeSelect">Выберите тему</string>
     <string name="ThemeSelect_1part">Выберите тему 1 часть</string>
     <string name="ThemeSelect_2part">Выберите тему 2 часть</string>

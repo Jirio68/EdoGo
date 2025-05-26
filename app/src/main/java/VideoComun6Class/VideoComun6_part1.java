@@ -14,6 +14,8 @@ import androidx.core.view.WindowInsetsCompat;
 import com.jirio.edogo.R;
 
 import Select.Selection_6;
+import TestComun6.TestComun6_part1;
+import TestEng.TestEng6;
 
 public class VideoComun6_part1 extends AppCompatActivity {
 
@@ -27,6 +29,11 @@ public class VideoComun6_part1 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void Test(View v) {
+        Intent intent = new Intent(this, TestComun6_part1.class);
+        startActivity(intent);
     }
 
     public void Select_Subjest(View view) {

@@ -14,6 +14,8 @@ import androidx.core.view.WindowInsetsCompat;
 import com.jirio.edogo.R;
 
 import Select.Selection_7;
+import TestBio7.TestBio7_part1;
+import TestBio7.TestBio7_part3;
 
 
 public class VideoBio7_part3 extends AppCompatActivity {
@@ -28,6 +30,11 @@ public class VideoBio7_part3 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void Test(View v) {
+        Intent intent = new Intent(this, TestBio7_part3.class);
+        startActivity(intent);
     }
 
     public void See_more5_part3(View view) {

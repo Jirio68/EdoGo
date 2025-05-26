@@ -14,6 +14,8 @@ import androidx.core.view.WindowInsetsCompat;
 import com.jirio.edogo.R;
 
 import Select.Selection_7;
+import TestHisRus7.TestHisRus7_part1;
+import TestHisRus7.TestHisRus7_part2;
 
 public class VideoHisRus7_part2 extends AppCompatActivity {
 
@@ -27,6 +29,11 @@ public class VideoHisRus7_part2 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void Test(View v) {
+        Intent intent = new Intent(this, TestHisRus7_part2.class);
+        startActivity(intent);
     }
 
     public void Select_Subjest(View view) {
